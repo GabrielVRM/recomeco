@@ -5,7 +5,7 @@ import { Handwritten } from "../components/Handwritten";
 import { Reveal } from "../components/Reveal";
 
 export function NewChapter() {
-  const { button } = newChapter;
+  // const { button } = newChapter;
 
   return (
     <Section
