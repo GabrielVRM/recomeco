@@ -1,4 +1,4 @@
-import { newChapter } from "./content/site";
+// import { newChapter } from "./content/site";
 import { Hero } from "./sections/Hero";
 import { Story } from "./sections/Story";
 import { Quotes } from "./sections/Quotes";
