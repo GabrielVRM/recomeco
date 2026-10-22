@@ -28,7 +28,7 @@ export default function App() {
         <FinalSurpresa />
       </main>
       <footer className="bg-ink px-6 py-10 text-center text-sm text-cream/60">
-        {newChapter.footer}
+        {/* {newChapter.footer} */}
       </footer>
     </>
   );

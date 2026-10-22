@@ -12,7 +12,7 @@ export function Quotes() {
         <QuoteBlock
           key={q.cite}
           text={q.text}
-          cite={q.cite}
+          // cite={q.cite}
           image={q.image}
           align={q.align}
         />

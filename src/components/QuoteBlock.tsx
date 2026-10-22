@@ -3,7 +3,7 @@ import { Handwritten } from "./Handwritten";
 
 interface QuoteBlockProps {
   text: string;
-  cite: string;
+  cite?: string | null;
   /** imagem de fundo (decorativa) */
   image: string;
   align?: "left" | "center" | "right";

@@ -60,7 +60,7 @@ export const story = {
 /* ── 3. Frases (inspiradas em filmes românticos; textos autorais) ─ */
 export interface QuoteItem {
   text: string;
-  cite: string;
+  cite: string | null;
   image: string;
   align: "left" | "center" | "right";
 }
@@ -71,26 +71,26 @@ export const quotes = {
   items: [
     {
       text: "Eu quero você, eu quero você para sempre, voce e eu, todos os dias!",
-      // cite: "a próxima cena",
+      cite: null,
       image: images.quote3,
       align: "right",
     },
 
     {
       text: "Se eu pudesse escolher de novo, ainda gostaria de conhecer você.",
-      // cite: "a cena da janela",
+      cite: null,
       image: images.quote1,
       align: "left",
     },
     {
       text: "será que pode imaginar sua vida daqui 30 anos, 40 anos? por que eu imagino... ",
-      // cite: "a cena da janela",
+      cite: null,
       image: images.quote4,
       align: "left",
     },
     {
       text: "Se existe algo que eu escolheria viver outra vez, seria a oportunidade de conhecer você.",
-      // cite: "a cena do pôr do sol",
+      cite: null,
       image: images.quote2,
       align: "center",
     },
