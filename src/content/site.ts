@@ -19,7 +19,7 @@ export const hero = {
   lead: "para minha princesa! ",
   // Cada item é uma linha do título. Juntas formam: "Algumas histórias merecem ser lembradas"
   titleLines: [
-    "Se eu pudesse voltar no tempo, não mudaria o nosso começo. Mudaria as escolhas que nos fizeram chegar ao fim",
+    "Se eu pudesse voltar no tempo, não mudaria o nosso começo. Mudaria as escolhas que nos fizeram chegar ao fim!",
   ],
   scrollHint: "role devagar",
 };
@@ -83,7 +83,7 @@ export const quotes = {
       align: "left",
     },
     {
-      text: "será que pode imaginar sua vida daqui 30 anos, 40 anos? por que eu imagino... ",
+      text: "será que pode imaginar sua vida daqui 30, 40 anos? por que eu imagino... ",
       cite: null,
       image: images.quote4,
       align: "left",
@@ -109,7 +109,7 @@ export interface GalleryItem {
 export const gallery = {
   id: "memorias",
   title: "Memórias",
-  note: "vou leva-las para o resto de minha vida! obs(me perdoe as fotos, sei que você vai falar que está feia, mas acredite em mim, voce está PERFEITA!",
+  note: "vou leva-las para o resto de minha vida! obs (me perdoe as fotos, sei que você vai falar que está feia, mas acredite em mim, voce está PERFEITA!",
   items: [
     {
       src: images.gallery1,
@@ -207,7 +207,7 @@ export const gallery = {
     {
       src: images.gallery14,
       alt: "Céu noturno com estrelas sobre uma linha de colinas (demonstração)",
-      caption: "você e nosso filhinho não podia faltar né 🥺 ",
+      caption: "você e nosso filhinho, não podia faltar né 🥺 ",
       aspect: "landscape",
       rotate: 2,
     },
@@ -223,11 +223,11 @@ export const letter = {
     "Escrevo sem a pretensão de justificar nada. confesso, que foi bem dificil, não sei se você vai sentir algo vendo isso, mas confesso que não pude me conter algumas vezes, mas foi bom relembrar..",
     "Não sei, nem por onde começar, talvez com um, Eu te amo? acho que não! depois de tudo que fiz.. seriam apenas palavras.. me desculpe, se isso parece que novamente estou me culpando, mas afinal, por que não me culparia, perdi a mulher que amo, que sou apaixonado e que até hoje tenho sonhos, onde você veste um lindo vestido branco, e entra na igreja, e estou lá... te esperando no altar...",
     "Bom, mas aprendi a reconhecer meus erros e a assumir minhas responsabilidades sem esperar nada em troca. Entendi que pedir desculpas não significa pedir alguém de volta, mas ter coragem de reconhecer o que fiz e dizer, com sinceridade, aquilo que essa pessoa merece ouvir. Em pensar que uma simples conversa teria resolvido tudo!",
-    `Aprendi com você a dar valor ao que parecia pequeno: nossas noites assistindo filmes, o bom dia sincero, as vezes que te buscava, os beijos nos terminais de trem, ${"obs(com gatos nos atrapalhando 😸)"} , o jeito que voce me olhava, e claro,  não podia faltar, nossas noites no cinema!`,
+    `Aprendi com você a dar valor ao que parecia pequeno: nossas noites assistindo filmes, o bom dia sincero, as vezes que te buscava, os beijos nos terminais de trem, ${"obs (com gatos nos atrapalhando 😸)"}, o jeito que você me olhava, e claro,  não podia faltar, nossas noites no cinema!`,
     "Não espero que nada disso apague o que aconteceu. Só queria que você soubesse que eu cresci com o que vivemos, e que levo comigo, com gratidão, cada parte dessa história, inclusive as difíceis,  Nunca vou te esquecer, espero que você seja feliz! e espero estar ao seu lado, mas se eu não estiver... ainda estarei aqui, te amando!",
     "Você deve pensar que nosso caminhos estão em lados opostos, mas não estão, por que você é minha direção, você sempre será a minha direção. Eu sei de um milhão de motivos para não ficarmos juntos, mas eu to cansado deles, to cansado de cada um deles, todos temos que fazer uma escolha e eu escolhe você um milhão de vezes... pelo resto da minha vida!! ",
   ],
-  closing: "como amor, seu principe.",
+  closing: "com amor, seu principe.",
   date: "Outubro de 2026",
 };
 
