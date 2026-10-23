@@ -14,12 +14,12 @@ export function Letter() {
     >
       <MusicPlayer music={"/music/cliche.mp3"} />
       <div className="mx-auto max-w-3xl">
-        <Reveal>
-          <SectionTitle id="letter-title">{letter.title}</SectionTitle>
-        </Reveal>
+        {/* <Reveal>
+          {/* <SectionTitle id="letter-title">{letter.title && letter.}</SectionTitle> 
+        </Reveal> */}
 
-        <Reveal variant="fade" className="mt-12">
-          <article className="paper px-7 py-12 sm:px-14 sm:py-16 md:px-20 md:py-20">
+        <Reveal variant="fade" className="mt-12 ">
+          <article className="paper bg-amber-100 px-7 py-12 sm:px-14 sm:py-16 md:px-20 md:py-20">
             <Handwritten as="p" tone="dark">
               {letter.salutation}
             </Handwritten>

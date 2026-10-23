@@ -13,17 +13,21 @@ export function MusicPlayer({ music }: MusicPlayerProps) {
 
   const REFRÃO_INICIO =
     music === "/music/AindaExisteAmorEmNós.mp3"
-      ? 150
+      ? 155
       : music === "/music/iris.mp3"
         ? 210
-        : 70;
+        : music === "/music/cliche.mp3"
+          ? 71
+          : 70;
 
   const REFRÃO_FIM =
     music === "/music/AindaExisteAmorEmNós.mp3"
-      ? 200
+      ? 280
       : music === "/music/iris.mp3"
         ? 280
-        : 150;
+        : music === "/music/cliche.mp3"
+          ? 200
+          : 150;
 
   useEffect(() => {
     const audio = audioRef.current;

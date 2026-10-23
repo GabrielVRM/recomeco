@@ -52,8 +52,8 @@ export function Hero() {
 
         <MusicPlayer music={"/music/iris.mp3"} />
         <span>
-          Pause a música antes de começar a próxima. Deixei apenas os refrões
-          kk{" "}
+          pode clicar na proxima musica, que a que estiver tocando vai parar
+          automaticamente kk{" "}
         </span>
         <br />
         <a

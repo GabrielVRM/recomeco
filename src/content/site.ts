@@ -27,10 +27,10 @@ export const hero = {
 /* ── 2. Nossa história ───────────────────────────────────────── */
 export const story = {
   id: "nossa-historia",
-  title: "Nossa começo",
+  title: "Nosso começo",
   note: "o dia que meu mundo ganhou cor!",
   paragraphs: [
-    "Tudo começou do jeito simples, com alguns chutes por debaixo da mesa kkk sem expectativa de algo serio, mas aos poucos você foi me mudando, e meu deu até animo de querer ir a empresa kkk pois, sabia que te veria lá. ",
+    "Tudo começou do jeito mais simples, com alguns chutes por debaixo da mesa kkk sem expectativa de algo serio, mas aos poucos você foi me mudando, e meu deu até animo de querer ir a empresa kkk pois, sabia que te veria lá. ",
     "Aos poucos, o comum foi ganhando outra luz. O caminho de volta ficou mais curto, as horas ao seu lado passaram mais depressa, e eu comecei a guardar detalhes sem perceber: o seu jeito extremamente fofo, o sorriso lindo, que vi poucas vezes... a famosa dancinha da comida, a forma como você me olhava, com esses olhinhos de jabuticaba kk que alias são perfeitos!",
     "Posso te contar uma coisa? naquele dia, onde você disse que queria algo serio, eu fiquei meio relutante né?! kk parecia até que eu não queria, mas posso te contar um segredo? eu não me achava bom o suficiente para você, e nunca havia chegado naquela parte, mas eu só ficava contigo, contava de você para todos os meus amigos, eu já te namorava sem você saber, ah e eu tive medo da sua mãe não gostar de mim kkk   ",
     "Bom... não foi uma história de cinema. Foi melhor, porque foi real: feita de dias comuns que, vistos de longe, viraram a parte mais bonita.",
@@ -109,7 +109,7 @@ export interface GalleryItem {
 export const gallery = {
   id: "memorias",
   title: "Memórias",
-  note: "vou leva-las para o resto de minha vida! obs (me perdoe as fotos se que voce vai falar que esta feia, mas acredite em mim, voce está PERFEITA!",
+  note: "vou leva-las para o resto de minha vida! obs(me perdoe as fotos, sei que você vai falar que está feia, mas acredite em mim, voce está PERFEITA!",
   items: [
     {
       src: images.gallery1,
@@ -121,7 +121,7 @@ export const gallery = {
     {
       src: images.gallery2,
       alt: "Casal em silhueta ao pôr do sol, à esquerda da imagem (demonstração)",
-      caption: "nossa primeira viagem, com o filinho de papai",
+      caption: "nossa primeira viagem, com o filhinho de papai",
       aspect: "landscape",
       rotate: 2,
     },
@@ -207,7 +207,7 @@ export const gallery = {
     {
       src: images.gallery14,
       alt: "Céu noturno com estrelas sobre uma linha de colinas (demonstração)",
-      caption: "você e nosso filinho não podia faltar né 🥺 ",
+      caption: "você e nosso filhinho não podia faltar né 🥺 ",
       aspect: "landscape",
       rotate: 2,
     },
@@ -217,13 +217,13 @@ export const gallery = {
 /* ── 5. O que eu aprendi (carta) ─────────────────────────────── */
 export const letter = {
   id: "o-que-eu-aprendi",
-  title: "Bom..",
+  // title: "Bom..",
   salutation: "Para minha primeira e unica princesa!!",
   paragraphs: [
     "Escrevo sem a pretensão de justificar nada. confesso, que foi bem dificil, não sei se você vai sentir algo vendo isso, mas confesso que não pude me conter algumas vezes, mas foi bom relembrar..",
     "Não sei, nem por onde começar, talvez com um, Eu te amo? acho que não! depois de tudo que fiz.. seriam apenas palavras.. me desculpe, se isso parece que novamente estou me culpando, mas afinal, por que não me culparia, perdi a mulher que amo, que sou apaixonado e que até hoje tenho sonhos, onde você veste um lindo vestido branco, e entra na igreja, e estou lá... te esperando no altar...",
     "Bom, mas aprendi a reconhecer meus erros e a assumir minhas responsabilidades sem esperar nada em troca. Entendi que pedir desculpas não significa pedir alguém de volta, mas ter coragem de reconhecer o que fiz e dizer, com sinceridade, aquilo que essa pessoa merece ouvir. Em pensar que uma simples conversa teria resolvido tudo!",
-    `Aprendi com você a dar valor ao que parecia pequeno: nossas noites assitindo filmes, o bom dia sincero, as vezes que te buscava, os beijos nos terminais de trem, ${"obs(com gatos nos atrapalhando 😸)"} , o jeito que voce me olhava, e claro,  não podia faltar, nossas noites no cinema!`,
+    `Aprendi com você a dar valor ao que parecia pequeno: nossas noites assistindo filmes, o bom dia sincero, as vezes que te buscava, os beijos nos terminais de trem, ${"obs(com gatos nos atrapalhando 😸)"} , o jeito que voce me olhava, e claro,  não podia faltar, nossas noites no cinema!`,
     "Não espero que nada disso apague o que aconteceu. Só queria que você soubesse que eu cresci com o que vivemos, e que levo comigo, com gratidão, cada parte dessa história, inclusive as difíceis,  Nunca vou te esquecer, espero que você seja feliz! e espero estar ao seu lado, mas se eu não estiver... ainda estarei aqui, te amando!",
     "Você deve pensar que nosso caminhos estão em lados opostos, mas não estão, por que você é minha direção, você sempre será a minha direção. Eu sei de um milhão de motivos para não ficarmos juntos, mas eu to cansado deles, to cansado de cada um deles, todos temos que fazer uma escolha e eu escolhe você um milhão de vezes... pelo resto da minha vida!! ",
   ],
@@ -234,7 +234,7 @@ export const letter = {
 /* ── 6. Um novo capítulo ─────────────────────────────────────── */
 export const newChapter = {
   id: "um-novo-capitulo",
-  title: "Um novo capítulo? ",
+  title: "...",
   paragraphs: [
     "Não sei o que o futuro nos reserva, nem espero que tudo seja perfeito. Só aprendi que algumas histórias merecem, pelo menos, uma conversa sincera antes de ficarem para trás.",
     "Se um dia você também sentir que faz sentido, eu gostaria de ter a oportunidade de escrever uma nova página com você. Sem pressa, sem cobranças e sem promessas vazias. Apenas com sinceridade, carinho e a vontade de fazer diferente.",

@@ -40,7 +40,9 @@ export function Polaroid({
       style={{ "--r": `${rotate}deg` } as CSSProperties}
     >
       {tape && <span className="tape" aria-hidden="true" />}
-      <div className={`relative w-full overflow-hidden bg-wine-900 ${ratios[aspect]}`}>
+      <div
+        className={`relative w-full overflow-hidden bg-wine-900 ${ratios[aspect]}`}
+      >
         <img
           src={src}
           alt={alt}
