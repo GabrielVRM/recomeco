@@ -1,6 +1,5 @@
 import { letter } from "../content/site";
 import { Section } from "../components/Section";
-import { SectionTitle } from "../components/SectionTitle";
 import { Handwritten } from "../components/Handwritten";
 import { Reveal } from "../components/Reveal";
 import { MusicPlayer } from "../libs/musicPlayer";
