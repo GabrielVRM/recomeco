@@ -30,10 +30,10 @@ export const story = {
   title: "Nossa começo",
   note: "o dia que meu mundo ganhou cor!",
   paragraphs: [
-    "Tudo começou do jeito simples, com alguns chutes por debaixo da mesa kkk sem expectativa de algo serio, mas aos poucos voce foi me mudando, e meu deu até animo de querer ir a empresa, pois sabia que te veria lá. ",
-    "Aos poucos, o comum foi ganhando outra luz. O caminho de volta ficou mais curto, as horas ao seu lado passaram mais depressa, e eu comecei a guardar detalhes sem perceber: o seu jeito extremamente fofo, o sorriso lindo, que vi poucas vezes...",
-    "Não foi uma história de cinema. Foi melhor, porque foi real: feita de dias comuns que, vistos de longe, viraram a parte mais bonita.",
-    "Nunca vou te esquecer, espero que você seja feliz! e espero estar ao seu lado, mas se eu não estiver... ainda estarei aqui, te amando!",
+    "Tudo começou do jeito simples, com alguns chutes por debaixo da mesa kkk sem expectativa de algo serio, mas aos poucos você foi me mudando, e meu deu até animo de querer ir a empresa kkk pois, sabia que te veria lá. ",
+    "Aos poucos, o comum foi ganhando outra luz. O caminho de volta ficou mais curto, as horas ao seu lado passaram mais depressa, e eu comecei a guardar detalhes sem perceber: o seu jeito extremamente fofo, o sorriso lindo, que vi poucas vezes... a famosa dancinha da comida, a forma como você me olhava, com esses olhinhos de jabuticaba kk que alias são perfeitos!",
+    "Posso te contar uma coisa? naquele dia, onde você disse que queria algo serio, eu fiquei meio relutante né?! kk parecia até que eu não queria, mas posso te contar um segredo? eu não me achava bom o suficiente para você, e nunca havia chegado naquela parte, mas eu só ficava contigo, contava de você para todos os meus amigos, eu já te namorava sem você saber, ah e eu tive medo da sua mãe não gostar de mim kkk   ",
+    "Bom... não foi uma história de cinema. Foi melhor, porque foi real: feita de dias comuns que, vistos de longe, viraram a parte mais bonita.",
   ],
   polaroids: [
     {
@@ -121,7 +121,7 @@ export const gallery = {
     {
       src: images.gallery2,
       alt: "Casal em silhueta ao pôr do sol, à esquerda da imagem (demonstração)",
-      caption: "nossa primeira viagem",
+      caption: "nossa primeira viagem, com o filinho de papai",
       aspect: "landscape",
       rotate: 2,
     },
@@ -149,7 +149,7 @@ export const gallery = {
     {
       src: images.gallery6,
       alt: "Casal em silhueta à direita, com céu alaranjado (demonstração)",
-      caption: "de mãos dadas",
+      caption: "apenas um casal lindo em ilhabela",
       aspect: "landscape",
       rotate: 1.5,
     },
@@ -167,6 +167,36 @@ export const gallery = {
       aspect: "landscape",
       rotate: 2,
     },
+    {
+      src: images.gallery9,
+      alt: "Céu noturno com estrelas sobre uma linha de colinas (demonstração)",
+      caption:
+        "aqui estava começando a planejar kkk (mandei pro matheus a foto e contei meu plano) ",
+      aspect: "landscape",
+      rotate: 2,
+    },
+    {
+      src: images.gallery10,
+      alt: "Céu noturno com estrelas sobre uma linha de colinas (demonstração)",
+      caption:
+        "a gente morto no parque, depois de 10 minutos, e ainda faltavam 50 😑 ",
+      aspect: "landscape",
+      rotate: 2,
+    },
+    {
+      src: images.gallery11,
+      alt: "Céu noturno com estrelas sobre uma linha de colinas (demonstração)",
+      caption: "nossa primeira vez (com fortes emoções kk) ",
+      aspect: "landscape",
+      rotate: 2,
+    },
+    {
+      src: images.gallery12,
+      alt: "Céu noturno com estrelas sobre uma linha de colinas (demonstração)",
+      caption: "apenas uma foto linda em ubatuba!",
+      aspect: "landscape",
+      rotate: 2,
+    },
   ] satisfies GalleryItem[],
 };
 
@@ -178,9 +208,10 @@ export const letter = {
   paragraphs: [
     "Escrevo sem a pretensão de justificar nada. confesso, que foi bem dificil, não sei se você vai sentir algo vendo isso, mas confesso que não pude me conter algumas vezes, mas foi bom relembrar..",
     "Não sei, nem por onde começar, talvez com um, Eu te amo? acho que não! depois de tudo que fiz.. seriam apenas palavras.. me desculpe, se isso parece que novamente estou me culpando, mas afinal, por que não me culparia, perdi a mulher que amo, que sou apaixonado e que até hoje tenho sonhos, onde você veste um lindo vestido branco, e entra na igreja, e estou lá... te esperando no altar...",
-    "Bom, mas aprendi a reconhecer meus erros sem precisar fazer deles um espetáculo e a assumir minhas responsabilidades sem esperar nada em troca. Entendi que pedir desculpas não significa pedir alguém de volta, mas ter coragem de reconhecer o que fiz e dizer, com sinceridade, aquilo que essa pessoa merece ouvir. Em pensar que uma simples conversa teria resolvido tudo!",
-    `Aprendi com você a dar valor ao que parecia pequeno: nossas noites assitindo filmes, o bom dia sincero, as vezes que te buscava, os beijos nos terminais de trem, ${"obs(com gatos nos atrapalhando 😸)"} , o jeito que voce me olhava.`,
-    "Não espero que nada disso apague o que aconteceu. Só queria que você soubesse que eu cresci com o que vivemos, e que levo comigo, com gratidão, cada parte dessa história, inclusive as difíceis, sei que você espera que eu siga em frente e te esqueça, mas não vejo isso acontecendo. Você deve pensar que nosso caminhos estão em lados opostos, mas não estão, por que você é minha direção, você sempre será a minha direção. Eu sei de um milhão de motivos para não ficarmos juntos, mas eu to cansado deles, to cansado de cada um deles, todos temos que fazer uma escolha e eu escolhe você um milhão de vezes... pelo resto da minha vida!! ",
+    "Bom, mas aprendi a reconhecer meus erros e a assumir minhas responsabilidades sem esperar nada em troca. Entendi que pedir desculpas não significa pedir alguém de volta, mas ter coragem de reconhecer o que fiz e dizer, com sinceridade, aquilo que essa pessoa merece ouvir. Em pensar que uma simples conversa teria resolvido tudo!",
+    `Aprendi com você a dar valor ao que parecia pequeno: nossas noites assitindo filmes, o bom dia sincero, as vezes que te buscava, os beijos nos terminais de trem, ${"obs(com gatos nos atrapalhando 😸)"} , o jeito que voce me olhava, e claro,  não podia faltar, nossas noites no cinema!`,
+    "Não espero que nada disso apague o que aconteceu. Só queria que você soubesse que eu cresci com o que vivemos, e que levo comigo, com gratidão, cada parte dessa história, inclusive as difíceis,  Nunca vou te esquecer, espero que você seja feliz! e espero estar ao seu lado, mas se eu não estiver... ainda estarei aqui, te amando!",
+    "Você deve pensar que nosso caminhos estão em lados opostos, mas não estão, por que você é minha direção, você sempre será a minha direção. Eu sei de um milhão de motivos para não ficarmos juntos, mas eu to cansado deles, to cansado de cada um deles, todos temos que fazer uma escolha e eu escolhe você um milhão de vezes... pelo resto da minha vida!! ",
   ],
   closing: "como amor, seu principe.",
   date: "Outubro de 2026",

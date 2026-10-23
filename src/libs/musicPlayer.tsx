@@ -11,9 +11,19 @@ export function MusicPlayer({ music }: MusicPlayerProps) {
   const [playing, setPlaying] = useState(false);
   const [erro, setErro] = useState(false);
 
-  const REFRÃO_INICIO = music === "/music/AindaExisteAmorEmNós.mp3" ? 150 : 70;
+  const REFRÃO_INICIO =
+    music === "/music/AindaExisteAmorEmNós.mp3"
+      ? 150
+      : music === "/music/iris.mp3"
+        ? 210
+        : 70;
 
-  const REFRÃO_FIM = music === "/music/AindaExisteAmorEmNós.mp3" ? 200 : 150;
+  const REFRÃO_FIM =
+    music === "/music/AindaExisteAmorEmNós.mp3"
+      ? 200
+      : music === "/music/iris.mp3"
+        ? 280
+        : 150;
 
   useEffect(() => {
     const audio = audioRef.current;

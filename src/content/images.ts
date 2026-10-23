@@ -40,4 +40,10 @@ export const images = {
   gallery6: photo("gallery-6.jpeg"),
   gallery7: photo("gallery-7.jpeg"),
   gallery8: photo("gallery-8.jpeg"),
+  gallery9: photo("gallery-9.jpeg"),
+
+  gallery10: photo("gallery-10.jpeg"),
+
+  gallery11: photo("gallery-11.jpeg"),
+  gallery12: photo("gallery-12.jpeg"),
 } as const;
