@@ -40,7 +40,7 @@ export function Gallery() {
           <Reveal>
             <div className="overflow-hidden rounded-2xl border border-white/15 bg-black/30 p-3 shadow-2xl">
               <video
-                src="/public/videoaliança.mp4"
+                src="/videoalianca.mp4"
                 controls
                 playsInline
                 preload="metadata"
