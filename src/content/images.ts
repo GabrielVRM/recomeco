@@ -46,4 +46,6 @@ export const images = {
 
   gallery11: photo("gallery-11.jpeg"),
   gallery12: photo("gallery-12.jpeg"),
+  gallery13: photo("gallery-13.jpeg"),
+  gallery14: photo("gallery-14.jpeg"),
 } as const;

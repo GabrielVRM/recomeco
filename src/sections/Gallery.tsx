@@ -34,6 +34,28 @@ export function Gallery() {
           </li>
         ))}
       </ul>
+
+      <div>
+        <div className="mx-auto mt-20 w-full max-w-sm px-4">
+          <Reveal>
+            <div className="overflow-hidden rounded-2xl border border-white/15 bg-black/30 p-3 shadow-2xl">
+              <video
+                src="/public/videoaliança.mp4"
+                controls
+                playsInline
+                preload="metadata"
+                className="aspect-[9/16] w-full rounded-xl object-contain"
+              >
+                Seu navegador não suporta a reprodução deste vídeo.
+              </video>
+            </div>
+
+            <p className="mt-6 text-center font-serif text-lg italic text-white/80">
+              Algumas lembranças merecem ser revividas. ❤️
+            </p>
+          </Reveal>
+        </div>
+      </div>
     </Section>
   );
 }

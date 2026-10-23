@@ -197,6 +197,20 @@ export const gallery = {
       aspect: "landscape",
       rotate: 2,
     },
+    {
+      src: images.gallery13,
+      alt: "Céu noturno com estrelas sobre uma linha de colinas (demonstração)",
+      caption: "mais uma em ubatuba!",
+      aspect: "landscape",
+      rotate: 2,
+    },
+    {
+      src: images.gallery14,
+      alt: "Céu noturno com estrelas sobre uma linha de colinas (demonstração)",
+      caption: "você e nosso filinho não podia faltar né 🥺 ",
+      aspect: "landscape",
+      rotate: 2,
+    },
   ] satisfies GalleryItem[],
 };
 
