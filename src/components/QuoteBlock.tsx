@@ -30,7 +30,7 @@ export function QuoteBlock({
       className={
         modified
           ? "relative isolate flex min-h-[88svh] items-end overflow-hidden bg-ink "
-          : "relative isolate flex min-h-[78svh] items-center overflow-hidden bg-ink"
+          : "relative isolate flex min-h-[86svh] items-center overflow-hidden bg-ink"
       }
     >
       <img
