@@ -10,7 +10,7 @@ export function MusicPlayer({ music }: MusicPlayerProps) {
   const audioRef = useRef<HTMLAudioElement>(null);
   const [playing, setPlaying] = useState(false);
   const [erro, setErro] = useState(false);
-
+  console.log(music);
   const REFRÃO_INICIO =
     music === "/music/AindaExisteAmorEmNós.mp3"
       ? 155
@@ -18,7 +18,9 @@ export function MusicPlayer({ music }: MusicPlayerProps) {
         ? 210
         : music === "/music/cliche.mp3"
           ? 71
-          : 70;
+          : music === "/music/casoIndefinido.mp3"
+            ? 56
+            : 70;
 
   const REFRÃO_FIM =
     music === "/music/AindaExisteAmorEmNós.mp3"
@@ -27,7 +29,9 @@ export function MusicPlayer({ music }: MusicPlayerProps) {
         ? 280
         : music === "/music/cliche.mp3"
           ? 200
-          : 150;
+          : music === "/music/casoIndefinido.mp3"
+            ? 400
+            : 250;
 
   useEffect(() => {
     const audio = audioRef.current;

@@ -4,6 +4,7 @@ import { Handwritten } from "./Handwritten";
 interface QuoteBlockProps {
   text: string;
   cite?: string | null;
+  modified?: boolean | null;
   /** imagem de fundo (decorativa) */
   image: string;
   align?: "left" | "center" | "right";
@@ -18,21 +19,35 @@ const alignment = {
 /** Frase em destaque sobre um fundo de cena, como um frame de filme. */
 export function QuoteBlock({
   text,
+  modified,
   cite,
   image,
   align = "left",
 }: QuoteBlockProps) {
+  console.log(modified);
   return (
-    <figure className="relative isolate flex min-h-[78svh] items-center overflow-hidden bg-ink">
+    <figure
+      className={
+        modified
+          ? "relative isolate flex min-h-[88svh] items-end overflow-hidden bg-ink "
+          : "relative isolate flex min-h-[78svh] items-center overflow-hidden bg-ink"
+      }
+    >
       <img
         src={image}
         alt=""
         aria-hidden="true"
         loading="lazy"
         decoding="async"
-        className="absolute opacity-40 inset-0 -z-20 h-full w-full object-cover object-center
+        className={
+          modified
+            ? `absolute opacity-30 inset-0 -z-20 h-full w-full object-cover object-[center_10%]
       [mask-image:linear-gradient(to_bottom,transparent_0%,black_12%,black_82%,transparent_100%)]
-      [-webkit-mask-image:linear-gradient(to_bottom,transparent_0%,black_12%,black_82%,transparent_100%)]"
+      [-webkit-mask-image:linear-gradient(to_bottom,transparent_0%,black_12%,black_82%,transparent_100%)]`
+            : `absolute opacity-40 inset-0 -z-20 h-full w-full object-cover object-center
+      [mask-image:linear-gradient(to_bottom,transparent_0%,black_12%,black_82%,transparent_100%)]
+      [-webkit-mask-image:linear-gradient(to_bottom,transparent_0%,black_12%,black_82%,transparent_100%)]`
+        }
       />
 
       {/* Escurece apenas o necessário para manter a leitura */}
@@ -43,7 +58,7 @@ export function QuoteBlock({
       />
 
       <div
-        className={`mx-auto flex w-full max-w-5xl flex-col px-6 py-24 sm:px-10 ${alignment[align]}`}
+        className={`mx-auto flex w-full max-w-7xl flex-col px-6 py-24 sm:px-10 ${alignment[align]}`}
       >
         <Reveal variant="fade">
           <blockquote className="max-w-3xl">

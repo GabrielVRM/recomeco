@@ -30,6 +30,11 @@ export const images = {
   quote2: photo("diario_paixao1.jpeg"),
   quote3: photo("nn.jpeg"),
   quote4: photo("tt.jpeg"),
+  quote5: photo("gallery-15.jpeg"),
+
+  quote6: photo("gallery-16.jpeg"),
+
+  quote7: photo("gallery-17.jpeg"),
 
   // Seção 4 — Galeria de memórias
   gallery1: photo("gallery-1.jpeg"),

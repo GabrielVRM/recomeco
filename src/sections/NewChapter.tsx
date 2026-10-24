@@ -3,6 +3,7 @@ import { Section } from "../components/Section";
 import { SectionTitle } from "../components/SectionTitle";
 import { Handwritten } from "../components/Handwritten";
 import { Reveal } from "../components/Reveal";
+import { MusicPlayer } from "../libs/musicPlayer";
 
 export function NewChapter() {
   // const { button } = newChapter;
@@ -13,6 +14,8 @@ export function NewChapter() {
       labelledBy="chapter-title"
       className="bg-[radial-gradient(ellipse_at_50%_100%,var(--color-wine-700),var(--color-ink)_70%)] md:py-44"
     >
+      <MusicPlayer music={"/music/casoIndefinido.mp3"} />{" "}
+      <p>não podia faltar essa musica né?! 👆</p>
       <div className="mx-auto max-w-2xl text-center">
         <Reveal>
           <SectionTitle id="chapter-title">{newChapter.title}</SectionTitle>

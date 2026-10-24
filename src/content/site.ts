@@ -62,6 +62,7 @@ export interface QuoteItem {
   text: string;
   cite: string | null;
   image: string;
+  modified: boolean | null;
   align: "left" | "center" | "right";
 }
 
@@ -72,6 +73,7 @@ export const quotes = {
     {
       text: "Eu quero você, eu quero você para sempre, voce e eu, todos os dias!",
       cite: null,
+      modified: null,
       image: images.quote3,
       align: "right",
     },
@@ -79,19 +81,32 @@ export const quotes = {
     {
       text: "Se eu pudesse escolher de novo, ainda gostaria de conhecer você.",
       cite: null,
+      modified: null,
+
       image: images.quote1,
       align: "left",
     },
     {
       text: "será que pode imaginar sua vida daqui 30, 40 anos? por que eu imagino... ",
       cite: null,
+      modified: null,
+
       image: images.quote4,
       align: "left",
     },
     {
       text: "Se existe algo que eu escolheria viver outra vez, seria a oportunidade de conhecer você.",
       cite: null,
+      modified: null,
+
       image: images.quote2,
+      align: "center",
+    },
+    {
+      text: "Se você quiser, podemos ser um caso indefinido ou nada mais, apenas bons amigos, namorar, casar, ter filhos... Passar a vida inteira juntos",
+      cite: null,
+      image: images.quote7,
+      modified: true,
       align: "center",
     },
   ] satisfies QuoteItem[],
