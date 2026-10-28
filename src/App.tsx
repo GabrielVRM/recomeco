@@ -8,6 +8,7 @@ import { NewChapter } from "./sections/NewChapter";
 import { FinalSurpresa } from "./components/finalSurpresa";
 import { useState } from "react";
 import { Login } from "./sections/login";
+import { Analytics } from "@vercel/analytics/react";
 
 export default function App() {
   const [desbloqueado, setDesbloqueado] = useState(false);
@@ -19,6 +20,7 @@ export default function App() {
   return (
     <>
       <main>
+        <Analytics />
         <Hero />
         <Story />
         <Quotes />
