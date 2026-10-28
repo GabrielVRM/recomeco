@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="1920" height="1080" preserveAspectRatio="xMidYMid slice">
+    <defs>
+      <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1a0b10"/><stop offset="0.35" stop-color="#4a1424"/><stop offset="0.62" stop-color="#a8445c"/><stop offset="0.82" stop-color="#e8935f"/><stop offset="1" stop-color="#f6c98d"/></linearGradient>
+      <radialGradient id="sun" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#fff2cf"/><stop offset="0.35" stop-color="#ffd08a" stop-opacity="0.9"/><stop offset="1" stop-color="#ff9f6b" stop-opacity="0"/></radialGradient>
+      <linearGradient id="sea" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#7a2b3d"/><stop offset="0.4" stop-color="#3a0f1c"/><stop offset="1" stop-color="#12060a"/></linearGradient>
+    </defs>
+    <rect width="1920" height="1080" fill="url(#sky)"/>
+    <circle cx="1180" cy="640" r="320" fill="url(#sun)"/>
+    <circle cx="1180" cy="640" r="70" fill="#fff0c8"/>
+    <path d="M0 520 Q300 480 560 520 T1100 500 T1920 530 V660 H0Z" fill="#6a2236" opacity="0.5"/>
+    <rect y="660" width="1920" height="420" fill="url(#sea)"/>
+    <g opacity="0.55" stroke="#ffd7a0" stroke-linecap="round">
+      <line x1="1030" y1="690" x2="1330" y2="690" stroke-width="3" opacity="0.8"/><line x1="1036" y1="728" x2="1324" y2="728" stroke-width="3.6" opacity="0.7000000000000001"/><line x1="1042" y1="766" x2="1318" y2="766" stroke-width="4.2" opacity="0.6000000000000001"/><line x1="1048" y1="804" x2="1312" y2="804" stroke-width="4.8" opacity="0.5"/><line x1="1054" y1="842" x2="1306" y2="842" stroke-width="5.4" opacity="0.4"/><line x1="1060" y1="880" x2="1300" y2="880" stroke-width="6" opacity="0.30000000000000004"/><line x1="1066" y1="918" x2="1294" y2="918" stroke-width="6.6" opacity="0.19999999999999996"/>
+    </g>
+    <path d="M0 900 Q500 860 900 905 T1920 890 V1080 H0Z" fill="#0d0508"/>
+    <g transform="translate(1500 900) scale(1.65)" fill="#0d0508">
+    <circle cx="-14" cy="-176" r="11"/>
+    <path d="M-30 0 L-26 -120 Q-24 -160 -14 -160 Q-4 -160 -2 -130 L4 -20 L4 0 Z"/>
+    <circle cx="16" cy="-170" r="10"/>
+    <path d="M2 0 L2 -120 Q4 -154 16 -154 Q28 -154 30 -118 L36 -48 L40 0 Z"/>
+  </g>
+    <radialGradient id="vg" cx="50%" cy="50%" r="75%"><stop offset="55%" stop-color="#000" stop-opacity="0"/><stop offset="100%" stop-color="#000" stop-opacity="0.55"/></radialGradient><rect width="1920" height="1080" fill="url(#vg)"/>
+    <filter id="g" x="0" y="0" width="100%" height="100%"><feTurbulence type="fractalNoise" baseFrequency="0.8" numOctaves="2" stitchTiles="stitch"/><feColorMatrix type="saturate" values="0"/><feComponentTransfer><feFuncA type="linear" slope="0.09"/></feComponentTransfer></filter><rect width="1920" height="1080" filter="url(#g)"/></svg>
